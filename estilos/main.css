@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    
+    @import url('https://fonts.googleapis.com/css2? family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F7FAFD;
+}
+
+.Primer_contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10em;
+}
+.Primer_contenedor__texto{
+    text-align: center;
+    align-content: center;
+    align-self: center;
+}
+
+.Primer_contenedor__texto h1{  
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
+
+.Primer_contenedor__texto p{  
+   color: rgb(114, 114, 114);
+   padding: 10px 10px;
+   font-size: 18px;
+   width: 40em;
+   height: 100px;
+}
+
+.botones_descargar{   
+    margin-top: 1em;
+    gap: 2em;
+    display: flex;
+    flex-direction: row;
+    align-self:center;
+    flex-wrap: wrap;
+}
+    
+
+div button{
+    font-size: 14px ;
+    background-color: #ff556e;
+    font-weight: bolder;
+    color:rgb(253, 249, 249);
+    border: solid 2px rgba(122, 81, 81, 0.329);
+    border-radius: 50px;
+    width: 185px;
+    height: 4em;       
+}
+
+.button_apple:hover{
+    background-color: white;
+    color: red;
+}
+.apple{
+    position: relative;
+    width: 18px;
+}
+.playstore{
+    width: 18px;
+}
+
+.Imagen_movil{
+    margin-top: 10em;
+    max-width: 100%;
+    height: 40em;   
+}
+div button:hover{
+    color: rgb(252, 39, 39);
+    background-color: rgb(255, 254, 254);
+    border-radius: red;
+ }
+
+
+
+ /*.rombo_verde {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 30px;
+    top: 8em;
+    left: 10em;
+ }
+
+ .circulo_amarillo{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 30px;
+    left: 96em;
+ }
+ .circulo_blanco{
+    position: absolute;
+    width: 40em;
+    top: 15em;
+    right: 105em;
+ }
+ .circulo_azul{
+    background-color: blue;
+    position: absolute;
+    width: 90px;
+    left: 11em;
+    top: 30em;
+ } */
+
+
+
+.contenedor_iconos{
+   margin-top: 10em;
+   margin-bottom: 10em;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 4em;
+}
+
+
+.icono_texto, .icono_texto4, .icono_texto5{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold; 
+}
+.icono_texto4, .icono_texto5{
+    margin-top: 8px;
+}
+
+.descripcion{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 6em;
+    
+ }
+ /*.descripcion_contenedor{
+    display: flex;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3em;
+    height: 2em;
+ }*/
+ 
+
+.descripcion_texto h2{
+    margin-top: 1em;
+    font-size: 40px;
+}
+.descripcion_texto p{
+    color: #777777;
+    margin-top: 1em;
+    font-size: 16px;
+}
+.descripcion_texto  li{
+    margin-top: 1.1em;
+    color: #777777;
+}
+.descripcion_texto button{
+    margin-top: 20px;
+    width: 143.39px;
+    height: 42px;
+    border: #e8eff6;
+}
+ .descripcion_imagen{
+    height: 550px;
+    width: auto;
+ }
+
+ 
+ .lista_texto button{
+    font-size: 14px;
+    margin-top: 10px;
+    background-color: #ff556e;
+    font-weight: bolder;
+    color:rgb(253, 249, 249);
+    border-radius: 50px;
+    width: 10em;
+    height: 38px;
+ }
+
+ .calendario {
+    background-color: #e8eff6;
+    height: 60em;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5em;
+ }
+ 
+ .descripcion2{
+    bottom: 12em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .descripcion2_imagen {
+    position: relative;
+    left: 30px;
+    height: 35em;
+    width: 30em;
+ }
+
+ .descripcion2_texto{
+    height: 18em;  
+ }
+
+ .pestañas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;       
+ }
+ 
+
+.pestañas_parrafos{
+    font-size: 16px;
+    height: 14em;
+}
+
+.checkbox {
+width: 16px;
+position: relative;
+right: 25px;
+top: 1.4em;   
+}
+.span{
+    font-weight: bold;
+}
+.boton_tareas{
+    height: 46px;
+    margin-bottom: 2em;
+    font-size: 15px;
+    width: 154.98px;
+    border: #e8eff6;
+    font-weight: bold;
+    border-radius: 0px;
+    background-color: #F7FAFD;
+    color: #777777;
+}
+.boton_tareas:hover{
+    color: #e8eff6;
+    background-color:#9a67e7 ;
+}
+
+.button_terms:hover{
+background-color: #F7FAFD;
+color: #ff556e;
+border: 1px solid #ff556e;
+
+}
+ .button_terms{
+    margin-top: 30px;
+    height: 37px;
+    width: 110px;
+    margin-right: 10px;
+ }
+.button_privacy{
+    color: black;
+    background-color: #e8eff6;
+    border: 2px solid black;
+    margin-top: 30px;
+    height: 37px;
+    width: 110px;
+}
+.button_privacy:hover{
+    background-color: black;
+    color: #F7FAFD;
+}
+.comentarios {
+    background-color: #F7FAFD;
+}
+
+.titulo_testimonios {
+text-align: center;
+margin: 1em;
+font-size: 45px;
+}
+.comentarios_arriba{
+ font: 16px;
+ width: 100%;
+ display: flex;
+ justify-content: center;   
+ flex-wrap: wrap;
+ gap: 2em;
+ line-height: 1.8;
+}
+.primer_comentario_arriba {
+display: flex;
+flex-direction: column;
+}
+.segundo_comentario_arriba{
+display: flex;
+flex-direction: column;
+}
+
+.tercer_comentario{
+display: flex;
+flex-direction: column;
+}
+.imagen_estrellas{
+    width: 8em;
+    height: 4em;
+    align-self: center;
+    border-bottom: 1px solid gray;
+}
+
+.comentarios_arriba h3{
+    margin-top: 2em;
+    align-self: center;
+    font-size: 16px;
+}
+.comentarios_arriba p {
+    font-size: 16px;
+    margin-top: 2em;
+    color: grey;
+    font-style: italic;
+}
+
+.contenedor_colaboradores{  
+    margin: 50px 0;
+    position: relative;
+    background-color: white;
+    width: 60%;
+    height: 120px;
+    left: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+}
+
+.colaboradores{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4em;
+}
+
+
+
+    
+.estadisticas{
+    margin-top: 5em;
+    background-color:#e8eff6;
+    height: 25em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8em;  
+}
+
+.happy_users, .code, .reviews, .studies, .orders {   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap; 
+    margin-bottom: 1em;    
+}
+
+.estadisticas span{   
+    font-size: 15px;
+    color: #777777;
+}
+.estadisticas img{
+    width: 65px;
+    height: 60px;
+}
+
+.estadisticas h3{
+    font-size: 64px;
+}
+
+.imagen_movil2{
+    margin-top: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px ;
+    height: 600px;
+}
+.texto p{
+    font-weight: lighter;
+    color: #777777;
+    font-size: 18px;
+    margin-top: 3em;
+    text-align: center;  
+    font: 400 1.125rem/1.875rem "Open Sans", sans-serif;
+}
+
+ .botones_descargar_2{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 2em;
+ }
+ .pie_pagina{
+    width: 100%;
+    height: 16.5em;
+ }
+ 
+ .pie_pagina{
+border-top: 1px solid #c8d4d6;
+margin-top: 10em;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+ }
+.pie_pagina h3{
+    font-weight: bolder;
+    color: rgb(94, 92, 92);
+}
+ 
+.Contacto, .Enlaces, .Apps{
+display: flex;
+flex-direction: column;
+gap: 1em;   
+ }
+
+ .iconos_redes{
+    width: 70px;
+    position: relative;
+    bottom: 40px;
+    padding: 0 1em;   
+ }
+.copyright{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
