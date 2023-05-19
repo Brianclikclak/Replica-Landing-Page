@@ -10,6 +10,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: #F7FAFD;
+    
 }
 
 .Primer_contenedor{
@@ -17,25 +18,31 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 10em;
+    width: 100%;
+    height: 100%;
 }
 .Primer_contenedor__texto{
     text-align: center;
     align-content: center;
     align-self: center;
+    width: 100%;
+    height: 100%;
 }
 
 .Primer_contenedor__texto h1{  
     font-size: 4rem;
     letter-spacing: 1px;
+    width: 100%;
+    height: 100%;
 }
 
 .Primer_contenedor__texto p{  
    color: rgb(114, 114, 114);
    padding: 10px 10px;
    font-size: 18px;
-   width: 40em;
-   height: 100px;
+   
 }
 
 .botones_descargar{   
@@ -43,8 +50,9 @@ body{
     gap: 2em;
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-self:center;
-    flex-wrap: wrap;
+    
 }
     
 
@@ -73,7 +81,7 @@ div button{
 
 .Imagen_movil{
     margin-top: 10em;
-    max-width: 100%;
+    width: 100%;
     height: 40em;   
 }
 div button:hover{
@@ -141,23 +149,17 @@ div button:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
-    gap: 6em;
+    gap: 110px;
+    
+    
     
  }
- /*.descripcion_contenedor{
-    display: flex;
-    margin-top: 5em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 3em;
-    height: 2em;
- }*/
  
 
 .descripcion_texto h2{
+    line-height: 50px;
     margin-top: 1em;
     font-size: 40px;
 }
@@ -177,8 +179,12 @@ div button:hover{
     border: #e8eff6;
 }
  .descripcion_imagen{
-    height: 550px;
-    width: auto;
+    height: auto;
+    width: 30em;
+ }
+ .descripcion_texto{
+    line-height: 30px;
+    
  }
 
  
@@ -195,11 +201,9 @@ div button:hover{
 
  .calendario {
     background-color: #e8eff6;
-    height: 60em;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
     justify-content: center;
     margin-top: 5em;
  }
@@ -210,17 +214,20 @@ div button:hover{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    height: 100%;
  }
 
  .descripcion2_imagen {
-    position: relative;
-    left: 30px;
-    height: 35em;
+    margin-top: 10em;
+    margin-bottom: 10em;
+    margin-right: em;
     width: 30em;
+    
  }
 
  .descripcion2_texto{
-    height: 18em;  
+    width: 48em;
  }
 
  .pestañas{
@@ -231,8 +238,10 @@ div button:hover{
  
 
 .pestañas_parrafos{
-    font-size: 16px;
-    height: 14em;
+    line-height: 25px;
+ width: 60em;
+height: 100%;
+    
 }
 
 .checkbox {
@@ -247,7 +256,7 @@ top: 1.4em;
 .boton_tareas{
     height: 46px;
     margin-bottom: 2em;
-    font-size: 15px;
+    font-size: 18px;
     width: 154.98px;
     border: #e8eff6;
     font-weight: bold;
@@ -286,9 +295,13 @@ border: 1px solid #ff556e;
 }
 .comentarios {
     background-color: #F7FAFD;
+    height: 100%;
+    width: 100%;
 }
 
 .titulo_testimonios {
+ width: 100%;   
+ height: 100%;
 text-align: center;
 margin: 1em;
 font-size: 45px;
@@ -296,6 +309,7 @@ font-size: 45px;
 .comentarios_arriba{
  font: 16px;
  width: 100%;
+ height: 100%;
  display: flex;
  justify-content: center;   
  flex-wrap: wrap;
@@ -335,12 +349,14 @@ flex-direction: column;
 }
 
 .contenedor_colaboradores{  
-    margin: 50px 0;
     position: relative;
+    padding: 3.5em 0;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    
     background-color: white;
-    width: 60%;
-    height: 120px;
-    left: 400px;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -359,20 +375,20 @@ flex-direction: column;
 .estadisticas{
     margin-top: 5em;
     background-color:#e8eff6;
-    height: 25em;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 8em;  
+    gap: 8em;
+    padding: 8em 0;  
 }
 
 .happy_users, .code, .reviews, .studies, .orders {   
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex-wrap: wrap; 
     margin-bottom: 1em;    
 }
 
@@ -388,14 +404,19 @@ flex-direction: column;
 .estadisticas h3{
     font-size: 64px;
 }
+.contenedor_movil_dos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-.imagen_movil2{
-    margin-top: 120px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 900px ;
-    height: 600px;
+.imagen_movil_dos{ 
+    margin-top: 10em;
+    max-width: 100%;
+    height: 50em;
+    
 }
 .texto p{
     font-weight: lighter;
@@ -413,18 +434,19 @@ flex-direction: column;
     align-content: center;
     gap: 2em;
  }
- .pie_pagina{
-    width: 100%;
-    height: 16.5em;
- }
+ 
  
  .pie_pagina{
+padding: 3em ;
 border-top: 1px solid #c8d4d6;
 margin-top: 10em;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
 flex-wrap: wrap;
+height: 100%;
+width: 100%;
+
  }
 .pie_pagina h3{
     font-weight: bolder;
@@ -433,7 +455,7 @@ flex-wrap: wrap;
  
 .Contacto, .Enlaces, .Apps{
 display: flex;
-flex-direction: column;
+flex-flow: column wrap;
 gap: 1em;   
  }
 

@@ -11,19 +11,33 @@
     position: fixed;
     font-size: 15px;
     display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
     align-items: center;
-    width: 80%;
+    width: 100%;
     height: 85px;
-    padding: 5px ;
     font-weight: bolder;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    right: 5em;
+    width: 30%;
+}
+nav{
+    width: 80%;
+}
+nav ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    
 }
 
 .header, .logo{
     background-color:  #F7FAFD;
     top: 0;
-    left: 13em;
     cursor: pointer;
     margin-right: auto;
 }
@@ -43,7 +57,7 @@
 }
 
 .header .nav-links li{
-    display: inline-block;
+display: flex;
     padding: 0 20px;
 }
 
@@ -66,9 +80,10 @@
     line-height: 45px;
     position: absolute;
     display: none;
+    right: 1em;
     width: 192px;
     height: 140px;
-    margin-top: 15px;
+    margin-top: 30px;
     background-color: rgba(255, 255, 255, 0.952);
     -webkit-box-shadow: -1px 3px 5px 0px rgba(168,168,168,1);
 -moz-box-shadow: -1px 3px 5px 0px rgba(168,168,168,1);
@@ -91,7 +106,7 @@ box-shadow: -1px 3px 5px 0px rgba(168,168,168,1);
     color: #ff556e;
     border: solid 2px rgba(255, 0, 0, 0.658);
     border-radius: 18px;
-    padding: 10px 20px;
+    padding: 7px 20px;
     width: 140px;
 }
 
